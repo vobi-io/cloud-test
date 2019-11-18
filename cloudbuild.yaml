@@ -1,5 +1,0 @@
-steps:
-- name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/invoicewave-123456/helloworld-image', '.' ]
-images:
-- 'gcr.io/invoicewave-123456/helloworld-image'
